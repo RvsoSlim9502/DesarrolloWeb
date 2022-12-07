@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Locales</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Enlazar el archivo HTML con una hoja de estilos externa -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <section class="contenedor espaciado construccion">
+        <a href="index.html">Volver al INICIO</a>
+    </section>
+</body>
+<header id="cabecera" class="espaciado">
+    <div class="contenedor">
+        <nav class="menu-barra">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.png" class="img_ajustarancho">
+                </a>
+            </div> 
+            <ul class="menu-opciones">
+                <div class="menu-items">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="locales.html">Direcciones</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="platos.html">Nuestros platos</a></li>
+                    <li><a href="contáctate.html">Comunícate con nosotros</a></li>
+                </div> 
+            </ul> 
+        </nav> 
+    </div> 
+</header> 
+
+<section id="contactanos-formulario" class="espaciado">
+    <div class="contenedor">
+        <div class="fila">
+            <div class="columna">
+                <form class="formulario" method="post">
+                    <h3>Quiero recibir información</h3>
+
+                    <div class="caja-entrada">
+                        <input type="text" class="campo" placeholder="Ingrese su nombre completo" required>
+                    </div>
+
+                    <div class="caja-entrada">
+                        <input type="text" class="campo" placeholder="Ingrese su apellido completo" required>
+                    </div>
+
+                    <div class="caja-entrada">
+                        <input type="email" class="campo" placeholder="Ingrese su correo electrónico" required>
+                    </div>
+
+                    <div class="caja-entrada">
+                        <input type="tel" class="campo" placeholder="Ingrese su número de celular" required>
+                    </div>
+
+                    <div class="caja-entrada">
+                        <select class="campo" required>
+                            <option value="" selected disabled>(selecciona una consulta)</option>
+                            <option value="1">DELIVERY</option>
+                            <option value="2">ATENCIÓN EN LOCAL</option>
+                            <option value="3">ALQUILER DE LOCAL</option>
+                            <option value="4">EVENTOS</option>
+                            <option value="5">OTROS</option>
+                        </select>
+                    </div>
+
+                    <p>
+                        <input type="checkbox" required>
+                        He leído y acepto los <a href="#">Términos y condiciones de privacidad</a>
+                    </p>
+
+                    <p>
+                        <input type="submit" value="Enviar" class="boton-enviar">
+                    </p>
+
+                </form>
+            </div>
+            <div class="columna">
+                <img src="images/llamada.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contactanos-mapa">
+    <iframe class="video-responsive" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62425.20759352075!2d-77.02513123426205!3d-12.072703356982888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c7b28cd68067%3A0x8c4ccbc754b63ae2!2sLongHorn%20Jockey%20Plaza!5e0!3m2!1ses-419!2spe!4v1670378447851!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade></iframe>
+</section>
+
+
+<footer id="pie">
+    <div class="contenedor">
+        <div class="fila">
+            <div class="copyright">
+                &copy; 2022 | LongHorn, las mejores carnes y parrillas
+            </div> <!-- copyright -->
+            <div class="correo-telefono">
+                <a href="mailto:admision@isil.pe?subject=Necesito información">
+                    <i class="fa-light fa-envelope"></i>
+                    longhorn@lonhhorn.com.pe
+                </a>
+                <a href="tel:51014213916">
+                    <i class="fa-light fa-phone"></i>
+                    (+51) (01) 4213916
+                </a>
+            </div> <!-- correo-telefono -->
+            <div class="redes-sociales">
+                <a href="https://www.facebook.com/LongHorn.Peru" target="_blank">
+                    <i class="fa-brands fa-facebook-f"></i>   
+                </a>
+                <a href="https://www.google.com/search?newwindow=1&rlz=1C1ASUM_enPE807PE807&sxsrf=ALeKk00ySAtagBJQUq8Kg1jSfGY_mGLfmw%3A1587863173279&ei=hd6kXuzNEIqd_QaP34m4BQ&q=longhorn+san+isidro&oq=longhorn+san+is&gs_lcp=CgZwc3ktYWIQAxgAMgQIIxAnMgQIIxAnMgIIADICCAAyAggAMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjoECAAQRzoFCAAQgwE6BAgAEEM6BwgAEIMBEENQi75MWLnaTGDQ40xoAXACeACAAc4BiAG6E5IBBjAuMTUuMZgBAKABAaoBB2d3cy13aXo&sclient=psy-ab" target="_blank">
+                    <i class="fa-brands fa-google"></i>
+                </a>
+                <a href="https://www.instagram.com/longhornperuoficial/" target="_blank"> 
+                    <i class="fa-brands fa-square-instagram"></i>
+                </a>
+            </div> <!-- redes-sociales -->
+        </div> <!-- fila -->
+    </div> <!-- contenedor -->
+</footer> <!-- pie -->
+<a href="#" id="scroll-arriba">
+    <i class="fa-solid fa-angle-up"></i>
+</a>
+</html>
